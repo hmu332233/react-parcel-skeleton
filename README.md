@@ -11,10 +11,14 @@ Ideal for those who want to quickly learn React without setting up a Webpack
 .babelrc          # babel config (js compiler)
 .postcssrc        # postcss config (css compiler)
 index.html        # entry html
-index.js          # entry js
 src               # application source code
-|-- App.js
-|-- styles.scss
+|-- index.js      # entry js
+|-- actions
+|-- components
+|-- containers
+|-- reducers
+|-- store
+|-- styles
 ```
 Parcel does not need a config file.  
 Only need the config file of the external module like `babelrc` `postcssrc`
