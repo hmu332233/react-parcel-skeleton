@@ -11,7 +11,8 @@ Ideal for those who want to quickly learn React without setting up a Webpack
 |--|--|
 |basic|basic react project environment|
 |redux|version that add `redux` to `basic branch`|
-|master|equals to `redux branch`|
+|gh-page|version that add `react-route-dom` & `gh 404 libs` to `redux branch`|
+|master|equals to `gh-page branch`|
 
 ### Directory structure
 ```
@@ -23,6 +24,7 @@ src               # application source code
 |-- actions
 |-- components
 |-- containers
+|-- pages
 |-- reducers
 |-- store
 |-- styles
