@@ -1,3 +1,4 @@
 import CountView from './CountView';
+import Menus from './Menus';
 
-export { CountView };
+export { CountView, Menus };
