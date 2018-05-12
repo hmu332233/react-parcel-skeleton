@@ -18,6 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <div className={styles.blue}>Hello world!</div>
         <CountView count={this.props.count} />
       </div>
     );
